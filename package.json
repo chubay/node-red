@@ -1,4 +1,7 @@
 {
+    "scripts": {
+    "start": "node flow.json"
+ }
     "name": "node-red",
     "description": "A Node-RED Project",
     "version": "0.0.1",
@@ -9,7 +12,4 @@
             "credentialsFile": "flow_cred.json"
         }
     }
-    "scripts": {
-    "start": "node flows.js"
- }
 }
