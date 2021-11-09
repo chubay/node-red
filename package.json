@@ -3,6 +3,13 @@
     "description": "A Node-RED Project",
     "version": "0.0.1",
     "dependencies": {"node-red-dashboard": "2.30.0"},
+    
+    "scripts": {
+        "start": "node-red --settings ./.node-red/settings.js --userDir ./.node-red",
+        "debug": "node-red --inspector --settings ./.node-red/settings.js --userDir ./.node-red",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
