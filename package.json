@@ -1,7 +1,4 @@
 {
-    "scripts": {
-    "start": "node flow.js"
- }
     "name": "node-red",
     "description": "A Node-RED Project",
     "version": "0.0.1",
