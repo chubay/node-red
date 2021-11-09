@@ -1,6 +1,6 @@
 {
     "scripts": {
-    "start": "node flow.json"
+    "start": "node flow.js"
  }
     "name": "node-red",
     "description": "A Node-RED Project",
