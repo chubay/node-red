@@ -9,4 +9,7 @@
             "credentialsFile": "flow_cred.json"
         }
     }
+    "scripts": {
+    "start": "node flows.js"
+ }
 }
